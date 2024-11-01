@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsLive - بث المباريات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SportsLive</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="schedule.html">جدول المباريات</a></li> <!-- رابط إلى صفحة جدول المباريات -->
+                <li><a href="#">الأخبار</a></li>
+                <li><a href="#">ملخصات</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>شاهد المباريات المهمة مباشرة!</h1>
+            <button onclick="watchLive()">شاهد الآن</button>
+        </section>
+
+        <section class="matches">
+            <h2>المباريات المهمة</h2>
+            <div id="importantMatches" class="match-list">
+                <!-- سيتم إضافة المباريات المهمة هنا باستخدام JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2024 SportsLive</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
